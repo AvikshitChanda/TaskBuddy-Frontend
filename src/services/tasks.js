@@ -1,4 +1,4 @@
-// client/src/services/tasks.js
+
 import api from './api';
 
 export const getTasks = async () => {

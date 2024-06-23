@@ -5,7 +5,7 @@ import TaskItem from "../TaskItem/TaskItem";
 import api from "../../services/api";
 import 'react-toastify/dist/ReactToastify.css';
 import './taskList.css';
-import logo from '../../assets/logo.png'; // Ensure you have a logo image in this path
+import logo from '../../assets/logo.png'; 
 
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);

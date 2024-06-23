@@ -22,7 +22,7 @@ const TaskItem = ({ task, deleteTask }) => {
   const handleDelete = () => {
     api.delete(`/tasks/${task._id}`)
       .then(() => {
-        deleteTask(task._id); // Invoke deleteTask with taskId
+        deleteTask(task._id); 
         toast.success('Task deleted successfully');
       })
       .catch(error => {
